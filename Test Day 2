@@ -1,0 +1,48 @@
+# BMI TEST
+# 🚨 Don't change the code below 👇
+# height = input("enter your height in m: ")
+# weight = input("enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+# height2 = float(height)
+# weight2 = int(weight)
+# bmi = (weight2 / height2 ** 2)
+# print(int(bmi))
+
+# LIFE IN WEEKS TEST
+# 🚨 Don't change the code below 👇
+age = input("What is your current age? ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+# age_int = int(age)
+
+# age_in_days = (age_int) * 365
+# age_in_weeks = (age_int) * 52
+# age_in_months = (age_int) * 12
+
+# days_in_90_years = 32850
+# weeks_in_90_years = 4680
+# months_in_90_years = 1080
+
+# days_remains = days_in_90_years - age_in_days
+# weeks_remains = weeks_in_90_years - age_in_weeks
+# months_remains = months_in_90_years - age_in_months
+
+# print(f"You have {days_remains} days, {weeks_remains} weeks, {months_remains} months left")
+
+# TIP CALCULATOR TEST
+# print("Selamat datang di kalkulator tip!")
+# bill = float(input("Berapa total pembayarannya? Rp "))
+# tip = int(input("Berapa persen tip yang akan kau berikan? 10, 12, atau 15? "))
+# people = int(input("Berapa orang yang akan membayar? "))
+
+# tip_as_percent = tip / 100
+# total_tip_amount = bill * tip_as_percent
+# total_bill = bill + total_tip_amount
+# bill_per_person = total_bill / people
+# final_amount = round(bill_per_person, 2)
+
+# print(f"Setiap orang harus membayar: Rp{final_amount}")
